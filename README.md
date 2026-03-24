@@ -15,18 +15,21 @@ Statistical validation
 Designed for both research (Q1-level) and practical engineering applications.
 
 Key Highlights
-🔹 Multi-model comparison (RF, SVR, ANN, XGBoost)
-🔹 Publication-quality figures (600 DPI)
-🔹 SHAP-based explainability (global + local)
-🔹 Cross-validation for robustness
-🔹 Residual & error distribution analysis
-🔹 Engineering-focused feature interpretation
+-Multi-model comparison (RF, SVR, ANN, XGBoost)
+-Publication-quality figures (600 DPI)
+-SHAP-based explainability (global + local)
+-Cross-validation for robustness
+-Residual & error distribution analysis
+-Engineering-focused feature interpretation
+
 Models Used
+
 Model	Description
 -Random Forest	Ensemble learning for robust predictions
 -XGBoost	Gradient boosting with high accuracy
 -ANN	Neural network for nonlinear relationships
 -SVR	Kernel-based regression
+
 Features (Input Variables)
 Cement (C)
 Sand (S)
@@ -53,6 +56,7 @@ Performance Evaluation
 Visualization & Error Analysis
 SHAP Explainability
 Cross-Validation
+
 Outputs
 Generated Figures
 Age-based regime classification
@@ -61,11 +65,13 @@ Actual vs Predicted plots
 Residual scatter plots
 Error distributions
 SHAP plots (global + local)
+
 Generated Table
 Model performance comparison (R², RMSE, MAE, error stats)
 Explainable AI (SHAP)
 Identifies most influential mix parameters
 Explains model decisions transparently
 Supports engineering interpretability
+
 Installation
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap
