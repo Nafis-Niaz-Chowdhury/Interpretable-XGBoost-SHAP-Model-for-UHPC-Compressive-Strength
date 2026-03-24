@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dataset (optional: remove if you want to upload dataset)
+UHPC_data.csv
+
+# Output files (generated results)
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# Figures & Results folders
+Figures/
+Results/
+
+# SHAP cache (sometimes generated)
+*.pkl
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
